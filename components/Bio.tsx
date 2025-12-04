@@ -4,15 +4,14 @@ export default function Bio() {
   return (
     <div className="flex flex-col items-center mt-12 mb-8">
       {/* Avatar */}
-      <div className="relative mb-8">
+      <div className="relative mb-10">
         <div className="w-28 h-28 rounded-full overflow-hidden shadow-lg">
           <Image
             src="/my-photo.jpg"
             alt="Profile"
             width={160}
             height={160}
-            className="rounded-full w-34 h-34 object-cover"
-            priority
+            className="rounded-full w-34 h-34 object-cover" priority
           />
         </div>
         {/* Status dot */}

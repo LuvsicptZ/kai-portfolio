@@ -1,6 +1,7 @@
 import Bio from "../components/Bio";
 import ContactLinks from "../components/ContactLinks";
 import Background from "../components/Background";
+import Navbar from "../components/Navbar";
 
 export const metadata = {
   title: "Kaelen Zhang | Personal Portfolio",
@@ -10,6 +11,7 @@ export const metadata = {
 export default function Home() {
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center p-2 overflow-hidden">
+      <Navbar />
       <Background />
 
       <div className="relative z-10 flex flex-col items-center">
