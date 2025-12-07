@@ -1,5 +1,3 @@
-'use client';
-
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 const navItems = [
