@@ -1,3 +1,5 @@
+"use client"
+
 import { motion } from "framer-motion"
 
 export default function About() {
@@ -9,8 +11,13 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.175 }}
         >
+
+            <h2 className="text-3xl font-bold text-slate-800 text-center mb-10 mt-[200px]">
+                About Me
+            </h2>
+
             {/* Content */}
-            <p className="text-gray-600 mt-[200px] mb-2">
+            <p className="text-gray-600  mb-2">
                 Hey there! 👋 I&apos;m a{" "}
                 <span className="font-semibold text-slate-700">front-end developer</span>{" "}
                 and IT student currently living in Australia. I spend my days turning coffee ☕ into React components and occasionally making Next.js do things it probably wasn&apos;t meant to.
