@@ -1,4 +1,6 @@
-import { useState, useContext, createContext,ReactNode, Dispatch, SetStateAction } from "react"
+"use client"
+
+import { useState, useContext, createContext, ReactNode, Dispatch, SetStateAction } from "react"
 
 type SectionName = "Home" | "About" | "Projects" | "Skills" | "Experiences"
 
