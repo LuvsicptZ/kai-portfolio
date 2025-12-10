@@ -4,6 +4,8 @@ import Background from "../components/Background";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Projects from "../components/Projects";
+import Skills from "../components/Skills";
+
 
 export const metadata = {
   title: "Kaelen Zhang | Personal Portfolio",
@@ -26,7 +28,7 @@ export default function Home() {
       </div>
       <About />
       <Projects />
-
+      <Skills />
     </main>
   );
 }

@@ -35,6 +35,7 @@ export const skillsData = [
     "Next.js",
     "Tailwind",
     "Framer Motion",
+     "Boostrap",
     "Prisma",
     "Zustand",
     "Vercel",
@@ -44,8 +45,7 @@ export const skillsData = [
     "MongoDB",
     "Docker",
     "Kubernetes",
-    "Git",
-    "Boostrap"
+    "Git"
 ]
 
 export const experiencesData = [
