@@ -39,7 +39,7 @@ export default function ProjectCard({
                 
                 {/* Content Area */}
                 <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
-                    <h3 className="text-2xl font-semibold text-slate-800 group-hover:text-red-500/80 transition-colors group-hover:underline">
+                    <h3 className="text-2xl font-semibold text-slate-800 group-hover:text-red-600/80 transition-colors hover:underline">
                         {title}
                     </h3>
 
