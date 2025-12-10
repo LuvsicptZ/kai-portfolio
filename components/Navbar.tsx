@@ -1,4 +1,4 @@
-'use client';
+"use client"
 
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -15,7 +15,7 @@ export default function Navbar() {
     const { activeSection, setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
     return (
-        <nav className="fixed top-8 z-50 flex gap-3 px-3 py-1 bg-blue-100/40  rounded-full shadow-sm">
+        <nav className="fixed top-8 z-50 flex gap-3 px-3 py-1 bg-gray-100/80  rounded-full shadow-sm backdrop-blur">
         {navItems.map((item) => (
             <a
                 key={item.name}

@@ -2,6 +2,8 @@ import Bio from "../components/Bio";
 import ContactLinks from "../components/ContactLinks";
 import Background from "../components/Background";
 import Navbar from "../components/Navbar";
+import About from "../components/About";
+import Projects from "../components/Projects";
 
 export const metadata = {
   title: "Kaelen Zhang | Personal Portfolio",
@@ -10,11 +12,11 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen flex-col items-center justify-center p-2 overflow-hidden">
+    <main className="relative flex min-h-screen flex-col items-center p-2 overflow-hidden">
       <Navbar />
       <Background />
 
-      <div className="relative z-10 flex flex-col items-center">
+      <div className="relative z-10 flex flex-col items-center mt-20">
         <Bio />
         <ContactLinks
           githubUrl="https://github.com"
@@ -22,6 +24,9 @@ export default function Home() {
           LinkedInUrl="https://www.linkedin.com/in/kai-zhang-0000000000/"
         />
       </div>
+      <About />
+      <Projects />
+
     </main>
   );
 }
