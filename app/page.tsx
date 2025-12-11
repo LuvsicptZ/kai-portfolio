@@ -6,6 +6,7 @@ import About from "../components/About";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Experiences from "../components/Experiences";
+import SectionDivider from "../components/SectionDivider";
 
 export const metadata = {
   title: "Kaelen Zhang | Personal Portfolio",
@@ -26,6 +27,7 @@ export default function Home() {
           LinkedInUrl="https://www.linkedin.com/in/kai-zhang-0000000000/"
         />
       </div>
+      <SectionDivider />
       <About />
       <Projects />
       <Skills />
