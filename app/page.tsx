@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
-
+import Experiences from "../components/Experiences";
 
 export const metadata = {
   title: "Kaelen Zhang | Personal Portfolio",
@@ -21,14 +21,15 @@ export default function Home() {
       <div className="relative z-10 flex flex-col items-center mt-20">
         <Bio />
         <ContactLinks
-          githubUrl="https://github.com"
-          InstagramUrl="https://www.instagram.com/"
+          githubUrl="https://github.com/LuvsicptZ"
+          InstagramUrl="https://www.instagram.com/kimon.oq/"
           LinkedInUrl="https://www.linkedin.com/in/kai-zhang-0000000000/"
         />
       </div>
       <About />
       <Projects />
       <Skills />
+      <Experiences />
     </main>
   );
 }

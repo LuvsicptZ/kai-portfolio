@@ -25,7 +25,7 @@ export default function Bio() {
 
       {/* Name */}
       <p className="font-mono text-sm text-gray-500 mb-2">Hi, my name is</p>
-      <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">Kaelen Zhang</h1>
+      <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-4">Ryan Zhang</h1>
 
       {/* Title */}
       <p className="font-mono text-sm text-gray-500 mb-2">I&apos;m a</p>
