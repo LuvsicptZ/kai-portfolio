@@ -1,5 +1,4 @@
 import Bio from "../components/Bio";
-import ContactLinks from "../components/ContactLinks";
 import Background from "../components/Background";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
@@ -18,14 +17,8 @@ export default function Home() {
     <main className="relative flex min-h-screen flex-col items-center p-2 overflow-hidden">
       <Navbar />
       <Background />
-
       <div className="relative z-10 flex flex-col items-center mt-20">
         <Bio />
-        <ContactLinks
-          githubUrl="https://github.com/LuvsicptZ"
-          InstagramUrl="https://www.instagram.com/kimon.oq/"
-          LinkedInUrl="https://www.linkedin.com/in/kai-zhang-0000000000/"
-        />
       </div>
       <SectionDivider />
       <About />
