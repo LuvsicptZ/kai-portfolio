@@ -7,13 +7,12 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import motion from "framer-motion";
+import SectionHeading from "./SectionHeading";
 
 export default function Experiences() {
   return (
     <section id="experiences" className="scroll-mt-28 mb-28 sm:mb-40">
-        <h2 className="text-3xl font-bold text-center text-slate-800 mb-10">
-            My Experience
-        </h2>
+        <SectionHeading>My Experiences</SectionHeading>
         <VerticalTimeline lineColor="#e5e7eb">
             {experiencesData.map((item, index) => (
                     <VerticalTimelineElement key={index} position={index % 2 === 0 ? "left" : "right"}

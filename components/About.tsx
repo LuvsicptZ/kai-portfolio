@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import SectionHeading from "./SectionHeading"
 
 export default function About() {
     return (
@@ -12,9 +13,7 @@ export default function About() {
             transition={{ delay: 0.175 }}
         >
 
-            <h2 className="text-3xl font-bold text-slate-800 text-center mb-10 mt-[200px]">
-                About Me
-            </h2>
+            <SectionHeading>About Me</SectionHeading>
 
             {/* Content */}
             <p className="text-gray-600  mb-2">
