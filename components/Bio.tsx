@@ -4,7 +4,7 @@ import { HiDownload } from 'react-icons/hi';
 
 export default function Bio() {
   return (
-    <div className="flex flex-col items-center mt-12 mb-8">
+    <div className="flex flex-col items-center mt-12">
       {/* Avatar */}
       <div className="relative mb-10">
         <div className="w-28 h-28 rounded-full overflow-hidden shadow-lg">

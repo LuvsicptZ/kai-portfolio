@@ -17,7 +17,7 @@ export default function Experiences() {
             {experiencesData.map((item, index) => (
                     <VerticalTimelineElement key={index} position={index % 2 === 0 ? "left" : "right"}
                         contentStyle={{
-                            background: "#f3f4f6",
+                            background: "#f9fafb",
                             boxShadow: "none",
                             border: "1px solid rgba(0, 0, 0, 0.05)",
                             textAlign: "left",
