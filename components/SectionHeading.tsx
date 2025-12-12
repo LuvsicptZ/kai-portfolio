@@ -1,7 +1,13 @@
-export default function SectionHeading({ children }: { children: React.ReactNode }) {
+import React from "react";
+
+type SectionHeadingProps = {
+    children: React.ReactNode;
+};
+
+export default function SectionHeading({ children }: SectionHeadingProps) {
     return (
-        <h2 className="text-3xl font-semiBold text-slate-800 text-center mb-10 mt-[200px]">
+        <h2 className="text-3xl font-medium capitalize text-slate-900 text-center mb-8">
             {children}
         </h2>
-    )
+    );
 }

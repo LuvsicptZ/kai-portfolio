@@ -2,7 +2,7 @@
 
 import { skillsData } from "@/lib/data";
 import { motion } from "framer-motion";
-import SectionHeading from "./SectionHeading"
+import SectionHeading from "@/components/SectionHeading";
 
 const fadeInAnimationVariants = {
   initial: {
@@ -21,14 +21,25 @@ const fadeInAnimationVariants = {
 export default function Skills() {
   return (
     <section id="skills" className="max-w-[53rem] scroll-mt-28 text-center mb-28">
-        <SectionHeading>My Skills</SectionHeading>
-        <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">{skillsData.map((skill,index) => (
-            <motion.li className="border bg-gray-100/60 rounded-xl px-5 py-3" key={index} variants={fadeInAnimationVariants} initial="initial" whileInView="animate" viewport={{once: true, }} custom={index}>
-                {skill}
-            </motion.li>
-        ))
-            }</ul>
+      <SectionHeading>My Skills</SectionHeading>
+      <ul className="flex flex-wrap justify-center gap-3 text-lg text-slate-900">
+        {skillsData.map((skill, index) => (
+          <motion.li
+            className="border border-slate-300 bg-white rounded-xl px-5 py-3 
+                       hover:bg-slate-100 hover:border-slate-400 hover:shadow-md 
+                       transition-all duration-200 cursor-default"
+            key={index}
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            custom={index}
+            whileHover={{ scale: 1.05 }}
+          >
+            {skill}
+          </motion.li>
+        ))}
+      </ul>
     </section>
-
-  )
+  );
 }
