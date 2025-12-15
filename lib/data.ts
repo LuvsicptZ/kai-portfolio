@@ -19,14 +19,14 @@ export const projectsData = [
         projectUrl: "https://google.com",
         demoUrl: "https://google.com",
     },
-    {
-        title: "Take a Walk",
-        description: "",
-        tags: ["React", "TypeScript", "Tailwind", "Zustand", "Mapbox GL JS"],
-        imageUrl: "https://google.com",
-        projectUrl: "https://google.com",
-        demoUrl: "https://google.com",
-    },
+    // {
+    //     title: "Take a Walk",
+    //     description: "",
+    //     tags: ["React", "TypeScript", "Tailwind", "Zustand", "Mapbox GL JS"],
+    //     imageUrl: "https://google.com",
+    //     projectUrl: "https://google.com",
+    //     demoUrl: "https://google.com",
+    // },
 ]
 
 export const skillsData = [

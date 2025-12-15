@@ -1,10 +1,14 @@
+"use client"
+
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { HiDownload } from 'react-icons/hi';
+import { useSectionInView } from "@/lib/hook";
 
 export default function Bio() {
+  const { ref } = useSectionInView("Home");
   return (
-    <div className="flex flex-col items-center mt-12">
+    <div ref={ref} className="flex flex-col items-center mt-12">
       {/* Avatar */}
       <div className="relative mb-10">
         <div className="w-28 h-28 rounded-full overflow-hidden shadow-lg">

@@ -3,6 +3,7 @@
 import { skillsData } from "@/lib/data";
 import { motion } from "framer-motion";
 import SectionHeading from "@/components/SectionHeading";
+import { useSectionInView } from "@/lib/hook";
 
 const fadeInAnimationVariants = {
   initial: {
@@ -19,8 +20,9 @@ const fadeInAnimationVariants = {
 };
 
 export default function Skills() {
+  const { ref } = useSectionInView("Skills");
   return (
-    <section id="skills" className="max-w-[53rem] scroll-mt-28 text-center mb-28">
+    <section id="skills" ref={ref} className="max-w-212 scroll-mt-28 text-center mb-28">
       <SectionHeading>My Skills</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-3 text-lg text-slate-900">
         {skillsData.map((skill, index) => (

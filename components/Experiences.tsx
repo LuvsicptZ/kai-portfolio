@@ -11,7 +11,7 @@ import SectionHeading from "./SectionHeading";
 
 export default function Experiences() {
   return (
-    <section id="experiences" className="scroll-mt-28 mb-28 sm:mb-40">
+    <section id="experiences" className="scroll-mt-28 sm:mb-48">
         <SectionHeading>My Experiences</SectionHeading>
         <VerticalTimeline lineColor="#e5e7eb">
             {experiencesData.map((item, index) => (
