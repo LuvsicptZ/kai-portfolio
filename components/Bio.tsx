@@ -8,7 +8,7 @@ import { useSectionInView } from "@/lib/hook";
 export default function Bio() {
   const { ref } = useSectionInView("Home");
   return (
-    <div ref={ref} className="flex flex-col items-center mt-12">
+    <section ref={ref} id="home" className="flex flex-col items-center mt-12 scroll-mt-28">
       {/* Avatar */}
       <div className="relative mb-10">
         <div className="w-28 h-28 rounded-full overflow-hidden shadow-lg">
@@ -84,6 +84,6 @@ export default function Bio() {
           <FaInstagram className="w-6 h-6" />
         </a>
       </div>
-    </div>
+    </section>
   );
 }
