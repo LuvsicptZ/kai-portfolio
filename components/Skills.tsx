@@ -22,21 +22,26 @@ const fadeInAnimationVariants = {
 export default function Skills() {
   const { ref } = useSectionInView("Skills");
   return (
-    <section id="skills" ref={ref} className="max-w-212 scroll-mt-28 text-center mb-28">
+    <section 
+      id="skills" 
+      ref={ref} 
+      className="max-w-212 scroll-mt-28 text-center mb-28"
+    >
       <SectionHeading>My Skills</SectionHeading>
-      <ul className="flex flex-wrap justify-center gap-2 text-lg text-slate-900">
+      <ul className="flex flex-wrap justify-center gap-2 text-lg">
         {skillsData.map((skill, index) => (
           <motion.li
-            className="border border-slate-300 bg-white rounded-xl px-5 py-3 
-                       hover:bg-slate-100 hover:border-slate-400 hover:shadow-md 
-                       transition-all duration-200 cursor-default"
+            className="bg-white border border-black/[0.1] rounded-xl px-5 py-3 
+                       text-gray-950 shadow-sm
+                       dark:bg-white/10 dark:text-white/80"
             key={index}
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
-            viewport={{ once: true }}
+            viewport={{
+              once: true,
+            }}
             custom={index}
-            whileHover={{ scale: 1.05 }}
           >
             {skill}
           </motion.li>
