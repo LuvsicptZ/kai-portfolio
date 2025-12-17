@@ -45,21 +45,25 @@ export const skillsData = [
     "JavaScript",
     "TypeScript",
     "React",
-    "Vue3",
     "Next.js",
+    "Vue3",
+    
     "Tailwind",
     "Framer Motion",
-     "Boostrap",
-    "Prisma",
-    "Zustand",
-    "Vercel",
     "Node.js",
     "Express",
     "SQL",
-    "MongoDB",
+    "Prisma",
+    
+    "Zustand",
+    "Git",
+    "Jest",
+    "React Testing Library",
+    "Boostrap",
+    
     "Docker",
-    "Kubernetes",
-    "Git"
+    "Vercel",
+    "AWS (basic)",
 ]
 
 export const experiencesData = [
