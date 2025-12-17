@@ -76,7 +76,7 @@ export const experiencesData = [
     },
     {
         title: "Frontend Developer (Intern)",
-        location: "Shenzhen, Guangdong",
+        location: "Lingyun Technology, Shenzhen",
         description: "Developed internal admin dashboards with Next.js, React, TypeScript, and Tailwind CSS. Built reusable components using Atomic Design patterns. Worked with product, design, QA, and backend teams through Jira to ship features on time. Added Framer Motion animations to improve the overall UX.",
         icon: React.createElement(CgWorkAlt),
         date: "2024 Mar - 2024 Jun",
