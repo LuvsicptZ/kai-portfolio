@@ -66,7 +66,7 @@ export default function Bio() {
 
         {/* LinkedIn Button */}
         <a 
-          href="https://www.linkedin.com/in/kai-zhang-0000000000/" 
+          href="https://www.linkedin.com/in/ryan-zhang-5773b5342" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="flex items-center justify-center w-12 h-12 rounded-full text-gray-900 hover:text-[#0077b5] hover:bg-blue-50 transition-all duration-300 hover:-translate-y-0.5"
