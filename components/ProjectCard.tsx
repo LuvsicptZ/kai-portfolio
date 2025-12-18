@@ -33,13 +33,13 @@ export default function ProjectCard({
                 scale: scaleProgress,
                 opacity: opacityProgress,
             }}
-            className="group mb-3 sm:mb-8 last:mb-0 w-full max-w-[42rem]"
+            className="group mb-3 sm:mb-8 last:mb-0"
         >
-            <section className="bg-gray-100 border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] transition sm:group-even:pl-8">
+            <section className="bg-gray-100 max-w-[45rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[28rem] hover:bg-gray-200 transition sm:group-even:pl-8">
                 
                 {/* Content Area */}
                 <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
-                    <h3 className="text-2xl font-semibold text-slate-800 group-hover:text-red-600/80 transition-colors hover:underline">
+                    <h3 className="text-2xl font-semibold text-slate-800 group-hover:text-gray-950 transition-colors hover:underline group-hover:text-red-500/80">
                         {title}
                     </h3>
 
@@ -66,14 +66,14 @@ export default function ProjectCard({
                         )}
                     </div>
 
-                    <p className="mt-2 leading-relaxed text-gray-700 text-sm">
+                    <p className="mt-2 leading-relaxed text-gray-700 text-sm mb-4">
                         {description || "No description available."}
                     </p>
 
                     <ul className="flex flex-wrap mt-auto gap-2">
                         {tags.map((tag, index) => (
                             <li
-                                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+                                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full"
                                 key={index}
                             >
                                 {tag}
