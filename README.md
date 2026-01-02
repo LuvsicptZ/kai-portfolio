@@ -1,5 +1,7 @@
 # My Portfolio
 
+![My Portfolio](public/my-portfolio.png)
+
 Personal portfolio site built with Next.js 16 + React 19.
 
 ## Stack

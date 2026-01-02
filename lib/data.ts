@@ -18,7 +18,7 @@ export const projectsData = [
         tags: ["Next.js", "React", "TypeScript", "Tailwind", "Framer Motion", "Vercel"],
         imageUrl: "/my-portfolio.png",
         projectUrl: "https://github.com/LuvsicptZ/kai-portfolio.git",
-        demoUrl: "https://google.com",
+        demoUrl: "kai-portfolio-three.vercel.app",
     },
     {
         title: "TicketSnap",
