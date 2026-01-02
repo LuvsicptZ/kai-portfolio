@@ -8,7 +8,7 @@ import Experiences from "../components/Experiences";
 import SectionDivider from "../components/SectionDivider";
 
 export const metadata = {
-  title: "Kaelen Zhang | Personal Portfolio",
+  title: "Ryan Zhang | Personal Portfolio",
   description: "Kai is a front-end developer.",
 };
 
