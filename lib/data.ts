@@ -5,19 +5,19 @@ import { LuGraduationCap } from "react-icons/lu";
 
 export const projectsData = [
     {
-        title: "Typing Speed",
+        title: "KeyMotion",
         description: "A fully featured typing speed test application that monitors and analyzes overall typing performance. It delivers detailed metrics such as total words typed, error count, and accuracy percentage, enabling users to track their progress and enhance their typing proficiency.",
-        tags: ["React", "TypeScript", "Tailwind", "Framer Motion"],
-        imageUrl: "https://google.com",
-        projectUrl: "https://google.com",
-        demoUrl: "https://google.com",
+        tags: ["React", "TypeScript", "Tailwind", "Framer Motion", "Vercel"],
+        imageUrl: "/KeyMotion.png",
+        projectUrl: "https://github.com/LuvsicptZ/KeyMotion.git",
+        demoUrl: "https://key-motion.vercel.app/",
     },
     {
         title: "My Portfolio",
-        description: "",
+        description: "A responsive personal portfolio website built with Next.js and TypeScript, featuring a clean UI powered by Tailwind CSS. It includes smooth scroll animations with Framer Motion, a dynamic project showcase, and a fully functional contact form. Deployed on Vercel for optimal performance.",
         tags: ["Next.js", "React", "TypeScript", "Tailwind", "Framer Motion", "Vercel"],
-        imageUrl: "https://google.com",
-        projectUrl: "https://google.com",
+        imageUrl: "/my-portfolio.png",
+        projectUrl: "https://github.com/LuvsicptZ/kai-portfolio.git",
         demoUrl: "https://google.com",
     },
     {
@@ -54,8 +54,7 @@ export const skillsData = [
     "Express",
     "SQL",
     "Prisma",
-    
-    "Zustand",
+
     "Git",
     "Jest",
     "React Testing Library",

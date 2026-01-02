@@ -11,17 +11,18 @@ export default function Bio() {
     <section ref={ref} id="home" className="flex flex-col items-center mt-12 scroll-mt-28">
       {/* Avatar */}
       <div className="relative mb-10">
-        <div className="w-28 h-28 rounded-full overflow-hidden shadow-lg">
+        <div className="w-32 h-32 rounded-full overflow-hidden shadow-lg border-4 border-white/50">
           <Image
             src="/my-photo.jpg"
             alt="Profile"
-            width={160}
-            height={160}
-            className="rounded-full w-34 h-34 object-cover" priority
+            width={300}
+            height={300}
+            className="w-full h-full object-cover object-center" 
+            priority
           />
         </div>
         {/* Status dot */}
-        <div className="absolute bottom-0 right-0 z-10" title="Open to work">
+        <div className="absolute bottom-2 right-2 z-10" title="Open to work">
           <span className="relative flex h-5 w-5">
             <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-green-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-3 w-3 bg-green-400 border-2 border-white shadow-sm"></span>
