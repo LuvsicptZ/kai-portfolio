@@ -42,25 +42,29 @@ export const projectsData = [
 export const skillsData = [
     "HTML",
     "CSS",
-    "JavaScript",
     "TypeScript",
+
     "React",
     "Next.js",
-    "Vue3",
-    
-    "Tailwind",
+    "Vue.js",
     "Framer Motion",
+    "Tailwind",
+
     "Node.js",
     "Express",
+    "NestJS",
+    "Spring Boot",
+
     "SQL",
     "Prisma",
+    "Supabase",
 
     "Git",
     "Jest",
-    "React Testing Library",
-    "Boostrap",
-    
+    "Bootstrap",
     "Docker",
+    "CI/CD",
+
     "Vercel",
     "AWS (basic)",
 ]
@@ -76,9 +80,15 @@ export const experiencesData = [
     {
         title: "Frontend Developer (Intern)",
         location: "Lingyun Technology, Shenzhen",
-        description: "Developed internal admin dashboards with Next.js, React, TypeScript, and Tailwind CSS. Built reusable components using Atomic Design patterns. Worked with product, design, QA, and backend teams through Jira to ship features on time. Added Framer Motion animations to improve the overall UX.",
+        description: [
+            "Refactored the attendance module in Spring Boot into stateless RESTful APIs with standardized CRUD design, improving front-end integration.",
+            "Applied Service and Repository patterns with DTOs and TypeScript interfaces to enforce data consistency and reduce runtime errors.",
+            "Optimized JPA pagination and implemented front-end debounce and fuzzy search, improving API response time by ~30% and lowering database load.",
+            "Designed a responsive UI system using Atomic Design, Tailwind CSS, Framer Motion, and the Factory Pattern to maximize component reusability.",
+            "Followed Git-flow, led PR reviews for core modules, and contributed to Docker-based CI/CD pipelines for automated deployments to Vercel.",
+        ],
         icon: React.createElement(CgWorkAlt),
-        date: "2024 Mar - 2024 Jun",
+        date: "2024 Jan - 2024 Jun",
     }
 
 ]

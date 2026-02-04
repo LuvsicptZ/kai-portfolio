@@ -50,7 +50,11 @@ export default function Bio() {
       {/* Contact Links */}
       <div className="flex gap-4">
         {/* Download Resume Button */}
-        <a href="/cv.pdf" download className="flex items-center justify-center gap-2 bg-[#1a1f36] text-white px-6 py-3 rounded-full hover:bg-black transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 font-semibold">
+        <a
+          href="/Resume.pdf"
+          download="Resume.pdf"
+          className="flex items-center justify-center gap-2 bg-[#1a1f36] text-white px-6 py-3 rounded-full hover:bg-black transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5 font-semibold"
+        >
           Download CV
           <HiDownload className="w-5 h-5" />
         </a>

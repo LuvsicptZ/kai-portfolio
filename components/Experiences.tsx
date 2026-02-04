@@ -37,9 +37,19 @@ export default function Experiences() {
                     >
                         <h3 className="font-semibold capitalize">{item.title}</h3>
                         <p className="font-normal mt-0!">{item.location}</p>
-                        <p className="mt-1! font-normal! text-gray-700">
-                            {item.description}
-                        </p>
+                        {Array.isArray(item.description) ? (
+                            <ul className="mt-2 list-disc pl-5 text-gray-700">
+                                {item.description.map((detail, idx) => (
+                                    <li key={idx} className="mb-1 last:mb-0">
+                                        {detail}
+                                    </li>
+                                ))}
+                            </ul>
+                        ) : (
+                            <p className="mt-1! font-normal! text-gray-700">
+                                {item.description}
+                            </p>
+                        )}
                     </VerticalTimelineElement>
                 ))}
             </VerticalTimeline>
